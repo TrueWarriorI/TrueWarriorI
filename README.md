@@ -48,17 +48,7 @@
 ---
 
 ## 🌐 Контакты  
-<table>
-<tr>
-<td>![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)</td>
-<td>perepelyuk_ivan07@mail.ru</td>
-<td>![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)</td>
-<td>linkedin.com/in/yourprofile</td>
-</tr>
-<tr>
-<td>![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)</td>
-<td>kaggle.com/yourusername</td>
-<td>![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)</td>
-<td>@perepelyuk10</td>
-</tr>
-</table>
+![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white) perepelyuk_ivan07@mail.ru 
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) linkedin.com/in/yourprofile  
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white) kaggle.com/yourusername  
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white) @perepelyuk10
