@@ -1,16 +1,13 @@
 # Иван Перепелюк
-
 Студент 3 курса МАИ, направление "Прикладная информатика".
-Специализация - Machine Learning и Data Science, с фокусом на табличные
-данные, разработку и валидацию ML-моделей.
-
+Специализация - Machine Learning и Data Science, с основным фокусом на
+табличные данные и опытом в задачах компьютерного зрения.
 Прошёл курс Data Science в Яндекс Практикуме. Участник хакатонов
 Lenta Tech и Альфа-Будущее. Выступил на международной научной
 конференции "Гагаринские чтения" с докладом по нейросетевому анализу
 аудио.
 
 ## Стек
-
 **Языки и работа с данными**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -43,52 +40,51 @@ Lenta Tech и Альфа-Будущее. Выступил на междунар�
 готового аналога для группировки по датам), feature engineering из
 сырого лога событий с контролем утечки по времени, сравнение четырёх
 моделей на деревьях, блендинг CatBoost и LightGBM по рангам.
-
 Ключевая находка - редкие категории технического контекста показали
 детерминированную связь с целевой переменной, подтверждённую SHAP-анализом
 на двух моделях независимо. Итоговый результат на скрытой тестовой
 выборке - **Daily AP = 0.7115** (наивный baseline - 0.22).
-
 Стек: Python, CatBoost, LightGBM, Optuna, SHAP, scikit-learn.  
 [Репозиторий](https://github.com/TrueWarriorI/lead-prioritization)
 
 ### Прогнозирование отмены бронирования отеля (UrbanStay)
 Бинарная классификация на реальных данных из PostgreSQL (Yandex Cloud).
 Отдельный акцент - хронологический train/test split для честной оценки
-на production-подобном сценарии, изотоническая калибровка вероятностей
-для интерпретируемости порогов.
-
-Стек: Python, scikit-learn, Isotonic Calibration, PostgreSQL.  
-[Репозиторий](#)
+на production-подобном сценарии, сравнение CatBoost и Random Forest с
+подбором гиперпараметров через Optuna, изотоническая калибровка
+вероятностей для интерпретируемости порогов, интерпретация модели
+через SHAP. Итоговый результат на тестовой выборке - **ROC-AUC 0.9753**,
+экономический эффект (Incremental Revenue) вырос на **65.8%**
+относительно текущей практики овербукинга.
+Стек: Python, scikit-learn, CatBoost, Optuna, SHAP, Isotonic Calibration, PostgreSQL.  
+[Репозиторий](ССЫЛКА)
 
 ### Lenta Tech Life Hack: распознавание ценников
 Компьютерное зрение для роботов-ретейлеров. Двухступенчатый пайплайн:
 детекция ценников на видео и OCR текста внутри найденных областей.
-
-Стек: YOLOv8, PaddleOCR, OpenCV, Python.  
-[Репозиторий](#)
+Стек: YOLOv8, PaddleOCR, OpenCV, PyTorch, Python.  
+[Репозиторий](ССЫЛКА)
 
 ### Прогнозирование поломок промышленного оборудования
 Предиктивное обслуживание на данных сервисной компании. Полный
 ML-цикл: EDA, feature engineering, классификация отказов и регрессия
 времени до отказа, валидация на отложенной выборке.
-
 Стек: Python, pandas, scikit-learn, XGBoost.  
-[Репозиторий](#)
+[Репозиторий](ССЫЛКА)
 
 ### Определение возрастной категории посетителей сайтов
-Задача классификации по логам поведения пользователей. EDA,
-feature engineering, сравнение нескольких моделей на общей метрике.
-
-Стек: Python, scikit-learn, pandas.  
+Задача классификации по логам поведения пользователей (более 1 млн
+записей о сессиях). EDA, feature engineering, сравнение нескольких
+моделей на метриках f1_macro/precision_macro/recall_macro. Итоговый
+результат - **F1_macro 0.674** на тестовой выборке при сильном
+дисбалансе классов.
+Стек: Python, scikit-learn, pandas, phik.  
 [Репозиторий](#)
 
 ## Статистика GitHub
-
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=TrueWarriorI&show_icons=true&theme=dark&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TrueWarriorI&layout=compact&theme=dark&hide_border=true)
 
 ## Контакты
-
 Email: perepelyuk_ivan07@mail.ru  
 Telegram: [@perepelyuk10](https://t.me/perepelyuk10)
